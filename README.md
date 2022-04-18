@@ -6,3 +6,6 @@ Repository for Android app course 2022 spring
 
 * Google Classroom
 * https://classroom.google.com/u/1/c/NDczMzM1MDU5Njk3
+
+* Sample Code
+* https://github.com/google-developer-training/android-fundamentals-apps-v2
