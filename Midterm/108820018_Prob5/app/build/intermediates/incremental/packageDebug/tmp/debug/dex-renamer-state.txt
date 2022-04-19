@@ -1,0 +1,4 @@
+#Tue Apr 19 15:42:41 CST 2022
+base.0=C\:\\Users\\user\\Documents\\NTUT\\110-2\\Android Application Development\\110_2_Android_Application_Development_HW\\Midterm\\108820018_Prob5\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
