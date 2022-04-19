@@ -26,6 +26,7 @@
         android:layout_height="wrap_content"
         android:text="@string/tab_2"
         android:textSize="30sp"
+        android:textStyle="bold"
         android:textAppearance="?android:attr/textAppearanceLarge"/>
 
 </RelativeLayout>
