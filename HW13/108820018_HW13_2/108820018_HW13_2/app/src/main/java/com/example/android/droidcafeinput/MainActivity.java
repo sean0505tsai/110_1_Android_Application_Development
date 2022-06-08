@@ -28,6 +28,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import java.lang.reflect.Array;
+
 /**
  * This app demonstrates images used as buttons and a floating action button for
  * an intent to launch a second activity. The app lets a user tap an image to
@@ -90,7 +92,13 @@ public class MainActivity extends AppCompatActivity {
                 .getDefaultSharedPreferences(this);
         String marketPref = sharedPref
                 .getString("sync_frequency", "-1");
-        displayToast(marketPref);
+        int deliveryPrefValue = Integer.valueOf(sharedPref
+                .getString("delivery_preference", "-1"));
+        String deliveryPref = (String) Array.get(
+                getResources().getStringArray(R.array.delivery_list_preference_entries), deliveryPrefValue);
+
+        String toastMessage = (marketPref + ", " + deliveryPref);
+        displayToast(toastMessage);
     }
 
     /**

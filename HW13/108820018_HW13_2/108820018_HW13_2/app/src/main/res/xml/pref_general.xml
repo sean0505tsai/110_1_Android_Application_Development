@@ -48,4 +48,11 @@
         android:positiveButtonText="@null"
         android:title="@string/pref_title_add_friends_to_messages" />
 
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/delivery_list_preference_entries"
+        android:entryValues="@array/delivery_list_preference_entry_values"
+        android:key="delivery_preference"
+        android:title="@string/pref_title_choose_delivery_method" />
+
 </PreferenceScreen>
